@@ -54,4 +54,49 @@
 }
 .About-us{
   background-color: lightpink;
+  width: 100%;
+  height: 100%;
 }
+
+.item{
+  float: left;
+  background:lightpink;
+  width: 50%;
+  height: 50%;
+  
+  
+  
+}
+h2{
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 5rem;
+  font-size: 30px;
+  text-decoration: none;
+  display: flex;
+}
+h3{
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 25px;
+  justify-content: space-evenly;
+  color: navy;
+  padding: 0 5rem;
+  display: flex;
+
+}
+
+.text{
+  justify-content: space-evenly;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 250px;
+  line-height: 30px;
+}
+
+
+
+  
