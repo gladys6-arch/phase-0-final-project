@@ -10,9 +10,9 @@
   z-index: 999;
 }
 
-.navbar.container{
+.navbar_container{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: 80px;
   z-index: 1;
   width: 100%;
@@ -21,3 +21,37 @@
   padding: 0 50px;
 }
 
+#navbar_logo{
+  background-color:lightpink;
+  color: black;
+  font-size: 20px;
+  font-family:  sans-serif;
+  background-image: linear-gradient(to top,#ff158f 0% #f77 1005);
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: wavy;
+}
+.navbar_menu{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+
+}
+.navbar_item{
+  height: 80px;
+
+}
+.navbar_links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 5rem;
+  
+}
+.About-us{
+  background-color: lightpink;
+}
