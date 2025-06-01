@@ -61,20 +61,41 @@ nav ul li:hover{
 #about{
   color: black;
   padding: 80px 0;
+  width: 200px;
   
 }
 
-.About-me{
-  color: black; 
 
-}.
+.footer{
+  background-color: lightblue;
+  padding: 70px 0;
+}
 
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  line-height: 10px;
+ .footer-container{
+  margin: auto;
+  max-width: 1160px;
+ } 
+ .row{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ ul{
+  list-style: none;
+ }
+
+ .column{
+  padding: 0 12px;
+  width: 25%;
+
+ }
+ .column h4 {
+  margin-bottom: 35px;
+  position: relative;
+  color: #000;
+  text-transform: capitalize;
+ }
+ .column ul li a:hover{
+  color: red;
+  transition-duration: 0.15s;
+ }
   
-
-  .paragraph{
-    color: black;
-  }
