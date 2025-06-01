@@ -58,63 +58,9 @@
 }
 
 body{
-  background-color: lightpink;
+  background-color: black;
 }
-
-
-h2{
-  text-align: center;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 0 5rem;
-  font-size: 30px;
-  text-decoration: none;
-  display: flex;
-}
-
-
-.personal-details{
-  justify-content: space-evenly;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  text-decoration: none;
-}
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-#About-me{
-  padding: 80px 0;
   
-}
-  .row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  .about-me-col-1{
-    float: left;
-    gap: 10px;
-  }
-  .about-me-col-1 img{
-    width: 10%;
-    border-radius: 12px;
-  }
-    
-  
-  .about-me-col-2{
-    float: right;
-    gap: 10px;
-  }
-  .sub-title{
-    
-    
-  }
 
   
   
