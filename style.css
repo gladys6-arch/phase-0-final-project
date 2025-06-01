@@ -52,15 +52,16 @@
   padding: 0 5rem;
   
 }
+.navbar_links:hover{
+  opacity: 0.6;
+  transition: all 0.15s ease;
+}
 
 body{
   background-color: lightpink;
 }
 
-.item{
-  float: left;
-   
-}
+
 h2{
   text-align: center;
   align-items: center;
@@ -70,26 +71,7 @@ h2{
   text-decoration: none;
   display: flex;
 }
-h3{
-  text-align: center;
-  align-items: center;
-  flex-wrap: wrap;
-  font-size: 25px;
-  justify-content: space-evenly;
-  color: navy;
-  padding: 0 5rem;
-  display: flex;
 
-}
-
-.text{
-  justify-content: space-evenly;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  height: 250px;
-  line-height: 30px;
-}
 
 .personal-details{
   justify-content: space-evenly;
@@ -106,4 +88,35 @@ h3{
   box-sizing: border-box;
 }
 
+#About-me{
+  padding: 80px 0;
   
+}
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .about-me-col-1{
+    float: left;
+    gap: 10px;
+  }
+  .about-me-col-1 img{
+    width: 10%;
+    border-radius: 12px;
+  }
+    
+  
+  .about-me-col-2{
+    float: right;
+    gap: 10px;
+  }
+  .sub-title{
+    
+    
+  }
+
+  
+  
+
+
